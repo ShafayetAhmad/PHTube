@@ -59,7 +59,7 @@ function showCards(category_id) {
         const singleCard = document.createElement("div");
         singleCard.innerHTML = `
         <div class="card h-96 bg-base-100 shadow-xl">
-      <figure><img src="${content.thumbnail}" alt="Shoes" /></figure>
+      <figure><img src="${content.thumbnail}" alt="" /></figure>
       <div class="card-body flex flex-row">
         <div class="pro-pic">
           <img
